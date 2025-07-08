@@ -1,8 +1,8 @@
 this is project for PDAM Kalimanta
 
 by Bosch Rexroth Indonesia
-Engineer
-Ahmadzakir Hanif
-Izharuddin Alfathin
-Safaro Muhammad Ilman
-Syahputra Azhani
+\nEngineer
+\n Ahmadzakir Hanif
+\nIzharuddin Alfathin
+\nSafaro Muhammad Ilman
+\n Syahputra Azhani
