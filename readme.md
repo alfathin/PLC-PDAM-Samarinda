@@ -1,8 +1,14 @@
-this is project for PDAM Kalimanta
 
-by Bosch Rexroth Indonesia
-\nEngineer
-\n Ahmadzakir Hanif
-\nIzharuddin Alfathin
-\nSafaro Muhammad Ilman
-\n Syahputra Azhani
+# PDAM Samarinda
+
+this is project for PDAM Kalimantan <br/>
+
+by Bosch Rexroth Indonesia Engineer
+
+
+
+- Ahmadzakir Hanif
+- Izharuddin Alfathin
+- Safaro Muhammad Ilman
+- Syahputra Azhani
+

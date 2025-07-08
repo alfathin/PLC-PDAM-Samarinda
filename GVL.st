@@ -1,3 +1,3 @@
 VAR_GLOBAL
-    
+   
 END_VAR
