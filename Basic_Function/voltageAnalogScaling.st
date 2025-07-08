@@ -3,6 +3,8 @@ VAR_INPUT
 	vSensorValue : INT;
 	sensorMaxValue : REAL;
 	sensorMinValue : REAL;
+    errorTresholdDown : INT;
+    errorTresholdUp : INT;
 END_VAR
 VAR_OUTPUT
 	error : WSTRING := errorCode;
@@ -17,14 +19,16 @@ VAR
 	scalingValue : REAL;
 	errorSensor : BOOL;
 	errorCode : WSTRING;
+    errorTresDown : INT := errorTresholdDown;
+    errorTresUp : INT := errorTresholdUp;
 END_VAR
 
-IF vRawValue < 4000 OR vRawValue > 20000 THEN
+IF vRawValue < errorTresDown OR vRawValue > errorTresDown THEN
 	errorSensor := TRUE;
-	IF vRawValue < 4000 THEN
+	IF vRawValue < errorTresDown THEN
 		errorCode := "Sensor disconnected, please check sensor";
 		END_IF
-	IF vRawValue > 20000 THEN
+	IF vRawValue > errorTresUp THEN
 		errorCode := "Overcurrent, please check sensor";
 		END_IF
 ELSE
